@@ -7,8 +7,6 @@ class Song
     @name=name 
     @artist=artist
     @@all << self
-  
-   
   end 
   
   def artist_name
@@ -18,9 +16,11 @@ class Song
       nil
     end
   end
+  
   def self.all
     @@all 
-  end 
+  end
+  
   def total
       @@song_count 
   end 
